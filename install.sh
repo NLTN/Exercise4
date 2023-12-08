@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Instal cURL (Client URL)
+sudo apt install curl
+
 # Installs N, the Node.js version manager, on Unix-like platforms, 
 # without needing to install Node.js first.
 if [ ! -d "$HOME/n" ]; then
